@@ -72,6 +72,24 @@ need to give name and cidr range in my case i have given 12.0.0.0/16
 <img width="985" alt="Screenshot 2024-09-03 at 2 13 12 AM" src="https://github.com/user-attachments/assets/0aa2868f-fc40-499b-bfa3-77c327c05b63">
 <img width="985" alt="Screenshot 2024-09-03 at 2 13 23 AM" src="https://github.com/user-attachments/assets/f73dc77c-6b51-4ff9-ae7c-99b86b318d35">
 
+create internet gateway
+
+Go to internet gateway in left  hand side in aws portal.
+
+Click on create gateway by giving name 
+
+Need to attach to vpc click ---> goto action -->click on attach gateway
+
+
+<img width="1429" alt="Screenshot 2024-09-03 at 2 25 30 AM" src="https://github.com/user-attachments/assets/df7b6fae-974f-4bde-8e1c-891a2d3d3205">
+
+create Subnet
+
+Go to subnets in left  hand side in aws portal.
+
+
+
+
 
 
 
