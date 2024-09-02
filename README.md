@@ -1,4 +1,4 @@
-<img width="1429" alt="Screenshot 2024-09-03 at 2 42 34 AM" src="https://github.com/user-attachments/assets/1c3dcb35-f50b-4e27-95bf-3a0328df2e2a"># AWS-networking-VPC-1
+# AWS-networking-VPC-1
 
 <img width="683" alt="Screenshot 2024-09-03 at 2 07 28 AM" src="https://github.com/user-attachments/assets/a0940e53-f6c3-49aa-960d-0cdb637a93bf">
 
@@ -108,16 +108,33 @@ click on add route  and add internet gateway.
 
 <img width="1429" alt="Screenshot 2024-09-03 at 2 41 07 AM" src="https://github.com/user-attachments/assets/5204a7cf-f274-4938-a695-e61341260929">
 
-![Uploading Screenshot 2024-09-03 at 2.42.34 AM.png
+
+<img width="1429" alt="Screenshot 2024-09-03 at 2 42 34 AM" src="https://github.com/user-attachments/assets/622d450d-6c04-4d30-bb75-f3e2ade1ca5e">
 
 
 
+We need to associate the subnet to route table public 
+
+In public route table click on the SUBNET ASSOCIATION ---> edit subnet association ---> add subnet listed 
+
+<img width="1429" alt="Screenshot 2024-09-03 at 2 49 47 AM" src="https://github.com/user-attachments/assets/e2769dd3-a667-40b5-8b7d-c78614559df0">
+
+follow same create route table as public and dont add internet gateway which we dont require for private 
 
 
+We need to associate the subnet to route table private
 
+In public route table click on the SUBNET ASSOCIATION ---> edit subnet association ---> add subnet listed 
 
+<img width="1429" alt="Screenshot 2024-09-03 at 2 53 47 AM" src="https://github.com/user-attachments/assets/e6b1b764-8c0a-499d-a660-4deb9530c84e">
 
+NOW CREATE THE RESOURCES INSIDE THE PRIVATE AND PUBLIC SUBNET (EC2 INSTANCES )
 
+<img width="1429" alt="Screenshot 2024-09-03 at 2 59 33 AM" src="https://github.com/user-attachments/assets/e39656f3-88ef-4af9-b62a-660ac4de92b7">
+
+<img width="1046" alt="Screenshot 2024-09-03 at 3 07 22 AM" src="https://github.com/user-attachments/assets/4d475036-43e1-4894-9d8d-54d555b2279f">
+
+NOTE : After this practice kindly delete the all resources to avoid the cost .
 
 
 
