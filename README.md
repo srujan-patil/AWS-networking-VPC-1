@@ -1,4 +1,4 @@
-# AWS-networking-VPC-1
+<img width="1429" alt="Screenshot 2024-09-03 at 2 42 34 AM" src="https://github.com/user-attachments/assets/1c3dcb35-f50b-4e27-95bf-3a0328df2e2a"># AWS-networking-VPC-1
 
 <img width="683" alt="Screenshot 2024-09-03 at 2 07 28 AM" src="https://github.com/user-attachments/assets/a0940e53-f6c3-49aa-960d-0cdb637a93bf">
 
@@ -86,6 +86,39 @@ Need to attach to vpc click ---> goto action -->click on attach gateway
 create Subnet
 
 Go to subnets in left  hand side in aws portal.
+
+create private subnet
+
+<img width="1429" alt="Screenshot 2024-09-03 at 2 30 44 AM" src="https://github.com/user-attachments/assets/5eb06f03-dea5-4a7f-a375-8e9b9a48cc35">
+
+
+create public subnet
+
+<img width="1429" alt="Screenshot 2024-09-03 at 2 31 45 AM" src="https://github.com/user-attachments/assets/79963729-7c59-4c3a-a325-12112d866b14">
+
+Create route table 
+
+<img width="1429" alt="Screenshot 2024-09-03 at 2 37 16 AM" src="https://github.com/user-attachments/assets/ddc96630-f916-489f-91a6-b6964231c5f7">
+
+we need to provide the route to access the internet 
+
+click on route id then click on edit route 
+
+click on add route  and add internet gateway.
+
+<img width="1429" alt="Screenshot 2024-09-03 at 2 41 07 AM" src="https://github.com/user-attachments/assets/5204a7cf-f274-4938-a695-e61341260929">
+
+![Uploading Screenshot 2024-09-03 at 2.42.34 AM.png
+
+
+
+
+
+
+
+
+
+
 
 
 
